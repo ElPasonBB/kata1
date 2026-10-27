@@ -7,6 +7,6 @@ public class Main {
         LocalDate birthday = LocalDate.of(2006, 10, 15);
         Person person = new Person("Airán", "Rivero", birthday);
 
-        System.out.println("Nombre: " + person.getName() + ", Apellido: " + person.getSurname() + ", Edad: " + person.age());
+        System.out.println("Nombre: " + person.name() + ", Apellido: " + person.surname() + ", Edad: " + person.age());
     }
 }
