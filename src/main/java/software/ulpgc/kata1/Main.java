@@ -14,6 +14,6 @@ public class Main {
 
         Student student = new Student("Airán", "Rivero", subjects);
 
-        System.out.println("Nombre: " + student.getName() + ", Apellido: " + student.getSurname() + ", Media: " + student.termMean());
+        System.out.println("Nombre: " + student.name() + ", Apellido: " + student.surname() + ", Media: " + student.termMean());
     }
 }
