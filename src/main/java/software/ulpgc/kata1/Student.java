@@ -12,4 +12,16 @@ public class Student {
         this.surname = surname;
         this.subjects = subjects;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getSurname() {
+        return surname;
+    }
+
+    public HashMap<String, Integer> getSubjects() {
+        return subjects;
+    }
 }
