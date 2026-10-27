@@ -24,4 +24,18 @@ public class Student {
     public HashMap<String, Integer> getSubjects() {
         return subjects;
     }
+
+    public double termMean() {
+        double mean = 0.;
+
+        if (this.subjects.isEmpty()) {
+            return 0.;
+        }
+
+        for (int grade : this.subjects.values()) {
+            mean += grade;
+        }
+
+        return mean / this.subjects.size();
+    }
 }
