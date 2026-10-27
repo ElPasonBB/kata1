@@ -27,6 +27,6 @@ public class Person {
     }
 
     public int age() {
-        return Period.between(LocalDate.now(), this.birthday).getYears();
+        return Period.between(this.birthday, LocalDate.now()).getYears();
     }
 }
