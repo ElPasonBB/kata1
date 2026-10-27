@@ -1,6 +1,7 @@
 package software.ulpgc.kata1;
 
 import java.time.LocalDate;
+import java.time.Period;
 
 public class Person {
     private String name;
@@ -23,5 +24,9 @@ public class Person {
 
     public LocalDate getBirthday() {
         return birthday;
+    }
+
+    public int age() {
+        return Period.between(LocalDate.now(), this.birthday).getYears();
     }
 }
