@@ -1,13 +1,13 @@
 package software.ulpgc.kata1;
 
-import java.util.HashMap;
+import java.util.Map;
 
 public class Student {
     private String name;
     private String surname;
-    private HashMap<String, Integer> subjects;
+    private Map<String, Double> subjects;
 
-    public Student(String name, String surname, HashMap<String, Integer> subjects) {
+    public Student(String name, String surname, Map<String, Double> subjects) {
         this.name = name;
         this.surname = surname;
         this.subjects = subjects;
@@ -21,7 +21,7 @@ public class Student {
         return surname;
     }
 
-    public HashMap<String, Integer> getSubjects() {
+    public Map<String, Double> getSubjects() {
         return subjects;
     }
 
@@ -32,7 +32,7 @@ public class Student {
             return 0.;
         }
 
-        for (int grade : this.subjects.values()) {
+        for (double grade : this.subjects.values()) {
             mean += grade;
         }
 
