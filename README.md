@@ -53,6 +53,19 @@ Se probó el código utilizando breakpoints (como se puede ver en el vídeo expl
 
 3. Repetición 3:       <img width="269" height="33" alt="imagen" src="https://github.com/user-attachments/assets/4b0245b3-7bae-406c-a0b1-04e7ba17040c" />  
 
+## Shortcuts utilizados
+1. Ctrl + K: Commit
+2. Ctrl + Shift + K: Push
+3. Alt + Enter: Sugerencias
+4. Alt + Insert: Generate, genera elementos y código según el contexto
+5. Ctrl + Tab: Switcher (cambiar entre elementos de la interfaz y menús)
+6. Alt + 1: Cambiar al árbol del proyecto
+7. Alt + 9: Cambiar a Git
+8. Shift + F10: Ejecutar
+9. Shift + F9: Depurador
+10. Shift + F6: Renombrar
+11. psvm: public static void main
+12. sout: System.out.println();
 
 ## Enlace al vídeo explicativo
 https://drive.google.com/file/d/13h3_lLG6ss15AuXXU0ddBLn84PKccXLP/view?usp=sharing
